@@ -19,4 +19,5 @@ RUN pip3 install --use-feature=2020-resolver --no-cache-dir git+https://github.c
 COPY . /gfootball
 RUN cd /gfootball && pip3 install --use-feature=2020-resolver .
 WORKDIR '/gfootball'
-2. Fix Docker
+
+# 2.Fix und Feature Docker file
